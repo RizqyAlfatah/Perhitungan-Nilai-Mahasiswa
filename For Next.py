@@ -6,7 +6,7 @@ Nama = input("Masukkan Nama: ")
 JSKS = 0
 JKREDIT = 0
 
-for i in range(1, 4):  
+for i in range(1, 4): #ganti berdasarkan matkul yg akan di input
     MATKUL = input(f"Masukkan nama mata kuliah ke {i} : " )
     SKS = float(input("Masukkan SKS: "))
     NHAR = float(input("Masukkan nilai harian: "))
